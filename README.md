@@ -7,7 +7,7 @@ In **ICDE 2022**.
 Spatial-Temporal Hypergraph Self-Supervised Learning for Crime Prediction (STHSL) is a spatio-temporal prediction networks. By adding self-supervised learning methods as auxiliary tasks, STHSL can tackle the label scarcity issue in crime prediction.
 
 # Structure
-* Datasets: including NYC and CHI datasets used in our experiments, which are released by and available at STSHN.
+* Datasets: including NYC and CHI datasets used in our experiments, which are released by and available at [STSHN](https://github.com/akaxlh/ST-SHN).
 * Save: model save path，for testing.
 * model: model of STHSL
 * others: files required for model training 
@@ -20,21 +20,21 @@ The code can be run in the following environments, other version of required pac
 
 # Run the codes 
 * NYC-Crimes dataset
-Train
+  * Train
 ```
 python train.py --data NYC
 ```
-Test
+  * Test
 ```
 python test.py --data NYC --checkpoint ./Save/NYC/your_file_names
 ```
 
 * Chicago-Crimes dataset
-Train
+  * Train
 ```
 python train.py --data CHI
 ```
-Test
+  * Test
 ```
 python test.py --data CHI --checkpoint ./Save/CHI/your_file_names
 ```
