@@ -12,7 +12,7 @@ Spatial-Temporal Hypergraph Self-Supervised Learning for Crime Prediction (STHSL
 * model: model of STHSL
 * others: files required for model training 
 
-## Environment Requirement
+## Environment requirement
 The code can be run in the following environments, other version of required packages may also work.
 * python==3.9.7
 * numpy==1.22.3
