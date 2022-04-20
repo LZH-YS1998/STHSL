@@ -19,22 +19,18 @@ The code can be run in the following environments, other version of required pac
 * pytorch==1.9.0
 
 # Run the codes 
-* NYC-Crimes dataset
-  * Train
+* NYC-Crimes dataset: Train and Test
 ```
 python train.py --data NYC
 ```
-  * Test
 ```
 python test.py --data NYC --checkpoint ./Save/NYC/your_file_names
 ```
 
-* Chicago-Crimes dataset
-  * Train
+* Chicago-Crimes dataset: Train and Test
 ```
 python train.py --data CHI
 ```
-  * Test
 ```
 python test.py --data CHI --checkpoint ./Save/CHI/your_file_names
 ```
