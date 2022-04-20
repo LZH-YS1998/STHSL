@@ -1,6 +1,6 @@
 # STHSL
-A pytorch implementation for the paper:
-Spatial-Temporal Hypergraph Self-Supervised Learning for Crime Prediction.
+A pytorch implementation for the paper:<br />
+Spatial-Temporal Hypergraph Self-Supervised Learning for Crime Prediction.<br />
 In **ICDE 2022**.
 
 # Introduction
