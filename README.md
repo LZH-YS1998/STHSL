@@ -1,6 +1,7 @@
 # STHSL
 A pytorch implementation for the paper:
-Spatial-Temporal Hypergraph Self-Supervised Learning for Crime Prediction, in **ICDE 2022**.
+Spatial-Temporal Hypergraph Self-Supervised Learning for Crime Prediction.
+In **ICDE 2022**.
 
 # Introduction
 Spatial-Temporal Hypergraph Self-Supervised Learning for Crime Prediction (STHSL) is a spatio-temporal prediction networks. By adding self-supervised learning methods as auxiliary tasks, STHSL can tackle the label scarcity issue in crime prediction.
