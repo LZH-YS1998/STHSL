@@ -15,9 +15,9 @@ The code can be run in the following environments, other version of required pac
 * NYC-Crimes dataseet
 ```
 python train.py --data NYC
-\```
+/```
 
 * Chicago-Crimes dataseet
 ```
 python train.py --data CHI
-\```
+/```
